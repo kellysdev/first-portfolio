@@ -1,68 +1,66 @@
+:root {
+  --background-color: #F4F2EE;
+  --primary-color: #617548;
+  --secondary-color: #C78548;
+  --text-color: #242424;
+  --visited-link-color: #000;
+  --grid-item-color: #fffff9;
+
+  --header-font-weight: 700px;
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: #F4F2EE;
+    background-color: var(--background-color);
     font-family: 'Marcellus', serif;
     font-family: 'Oxygen', sans-serif;
-    color: #242424;
+    color: var(--text-color);
     font-size: 16px;
     line-height: 1.0;
 }
 
 h1 {
     font-size: 30px;
-    font-weight: 700px;
+    font-weight: var(--header-font-weight);
 }
 
 h2 {
     font-size: 24px;
-    font-weight: 700px;
+    font-weight: var(--header-font-weight);
 }
 
 h3 {
     font-size: 18px;
-    font-weight: 700px;
+    font-weight: var(--header-font-weight);
 }
 
 a {
-    color: #617548;
+    color: var(--primary-color);
     font-weight: 550;
+    text-decoration: none;
   }
 
   a:visited {
-    color: #000;
+    color: var(--visited-link-color);
   }
 
   a:active {
-    color: #C78548;
+    color: var(--secondary-color);
   }
 
   a:hover, a:focus {
     text-decoration: none;
   }
 
-  button {
+  button, .button {
     border: none;
     display: inline-block;
     font-family: inherit;
-    background-color: #617548;
-    color: #F4F2EE;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 3px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-    justify-content: center;
-    transition: opacity 0.2s;
-}
-
-  .button {
-    border: none;
-    display: inline-block;
-    font-family: inherit;
-    background-color: #617548;
-    color: #F4F2EE;
+    background-color: var(--primary-color);
+    color: var(--background-color);
     text-decoration: none;
     padding: 5px;
     border-radius: 3px;
@@ -77,7 +75,7 @@ a {
   }
 
 .button_secondary {
-    background-color: #C78548;
+    background-color: var(--secondary-color);
     color:#2B2B2B
 }
 
@@ -123,7 +121,7 @@ a {
 
 .about {
   margin: auto;
-  width: 50%;
+  width: 30%;
 }
 
 @keyframes spin {
@@ -164,7 +162,7 @@ a {
 }
 
 .grid__item {
-  background-color: #fffff9;
+  background-color: var(--grid-item-color);
   width: auto;
   min-height: auto;
   padding: 10px;
@@ -191,7 +189,6 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  text-decoration: none;
 }
 
 .backtotopp {
