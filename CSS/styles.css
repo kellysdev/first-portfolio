@@ -40,6 +40,7 @@ h3 {
 a {
     color: var(--primary-color);
     font-weight: 550;
+    text-decoration: none;
   }
 
   a:visited {
@@ -188,7 +189,6 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  text-decoration: none;
 }
 
 .backtotopp {
