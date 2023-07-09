@@ -245,7 +245,10 @@ a {
 
 @media all and (max-width: 400px) {
   .profile__portrait {
-    width: 150px;
+    width: 175px;
+  }
+  .about {
+    width: 70%;
   }
 }
 
@@ -253,9 +256,6 @@ a {
   .grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-  }
-  .about {
-    width: 50%;
   }
 }
 
