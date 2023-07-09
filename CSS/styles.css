@@ -196,6 +196,12 @@ a {
   padding: 20px;
 }
 
+@media all and (max-width: 400px) {
+  .profile__portrait {
+    width: 150px;
+  }
+}
+
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
