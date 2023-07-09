@@ -198,16 +198,16 @@ a {
 
 @media all and (max-width: 400px) {
   .profile__portrait {
-    width: 150px;
+    width: 175px;
+  }
+  .about {
+    width: 70%;
   }
 }
 
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
-  }
-  .about {
-    width: 50%;
   }
 }
 
