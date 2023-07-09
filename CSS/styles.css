@@ -206,6 +206,9 @@ a {
   .grid {
     grid-template-columns: 1fr;
   }
+  .about {
+    width: 50%;
+  }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
