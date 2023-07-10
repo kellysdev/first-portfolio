@@ -15,29 +15,32 @@
 
 body {
     background-color: var(--background-color);
-    font-family: 'Marcellus', serif;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Archivo', sans-serif;
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.0;
 }
 
 h1 {
+    font-family: 'Archivo Black', sans-serif;
     font-size: 30px;
     font-weight: var(--header-font-weight);
 }
 
 h2 {
+    font-family: 'Archivo Black', sans-serif;
     font-size: 24px;
     font-weight: var(--header-font-weight);
 }
 
 h3 {
+    font-family: 'Archivo Black', sans-serif;
     font-size: 18px;
     font-weight: var(--header-font-weight);
 }
 
 a {
+    font-family: 'Archivo Narrow', sans-serif;
     color: var(--primary-color);
     font-weight: 550;
   }
