@@ -238,6 +238,10 @@ a {
   text-align: center;
 }
 
+.attribute {
+  font-size: x-small;
+}
+
 .backtotopp {
   display: -webkit-box;
   display: -ms-flexbox;

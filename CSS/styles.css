@@ -195,6 +195,10 @@ a {
   text-align: center;
 }
 
+.attribute {
+  font-size: x-small;
+}
+
 .backtotopp {
   display: flex;
   justify-content: center;
