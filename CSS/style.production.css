@@ -232,6 +232,12 @@ a {
 
 .contact {
   text-align: center;
+  background-color: var(--grid-item-color);  
+  width: 75%;
+  height: 200%;
+  padding: 20px;
+  margin: auto auto;
+  border-radius: 10px;
 }
 
 .page-footer {
