@@ -129,8 +129,12 @@ a {
 }
 
 .profile {
-    max-width: 700px;
-    margin: 0 auto;
+  background-color: var(--grid-item-color);  
+  width: 75%;
+  height: 200%;
+  padding: 20px;
+  margin: auto auto;
+  border-radius: 10px;
 }
 
 .profile__portrait {
