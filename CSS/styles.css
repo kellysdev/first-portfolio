@@ -159,6 +159,15 @@ a {
   margin: auto;
 }
 
+.work {
+  background-color: var(--grid-item-color);  
+  width: 75%;
+  height: 200%;
+  padding: 20px;
+  margin: auto auto;
+  border-radius: 10px;
+}
+
 .grid__item {
   display: inline-block;
   width: 33%;
