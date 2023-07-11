@@ -4,7 +4,8 @@
   --secondary-color: #C78548;
   --text-color: #242424;
   --visited-link-color: #000;
-  --grid-item-color: #fffff9;
+  --grid-item-color: rgba(97, 117, 72, 0.1);
+  --text-background-color: #fffff9;
 
   --header-font-weight: 700px;
 }
@@ -112,7 +113,7 @@ a {
 }
 
 .profile {
-  background-color: var(--grid-item-color);  
+  background-color: var(--text-background-color);  
   width: 75%;
   height: 200%;
   padding: 20px 20px 60px 20px;
@@ -128,7 +129,7 @@ a {
 }
 
 .about {
-  background-color: var(--grid-item-color);  
+  background-color: var(--text-background-color);  
   width: 75%;
   height: 200%;
   padding: 20px;
@@ -160,7 +161,7 @@ a {
 }
 
 .work {
-  background-color: var(--grid-item-color);  
+  background-color: var(--text-background-color);  
   width: 75%;
   height: 200%;
   padding: 20px;
@@ -203,7 +204,7 @@ a {
 
 .contact {
   text-align: center;
-  background-color: var(--grid-item-color);  
+  background-color: var(--text-background-color);  
   width: 75%;
   height: 200%;
   padding: 20px;
