@@ -23,7 +23,7 @@
 }
 
 body {
-    background-image: url(./style.production.css);
+    background-image: url(/img/lines_background_cropped.svg);
     background-size: cover;  
     font-family: 'Archivo', sans-serif;
     color: var(--text-color);
