@@ -227,6 +227,8 @@ a {
 
 .attribute {
   font-size: x-small;
+  display: flex;
+  justify-content: center;
 }
 
 .backtotopp {
