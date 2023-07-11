@@ -132,7 +132,7 @@ a {
   background-color: var(--grid-item-color);  
   width: 75%;
   height: 200%;
-  padding: 20px;
+  padding: 20px 20px 60px 20px;;
   margin: auto auto;
   border-radius: 10px;
 }
