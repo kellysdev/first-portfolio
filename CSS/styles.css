@@ -223,6 +223,12 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: var(--text-background-color);  
+  width: 75%;
+  height: 200%;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
 }
 
 .attribute {
