@@ -23,7 +23,7 @@
 }
 
 body {
-    background-image: url(../../SVGs/849126_10.svg);
+    background-image: url(/img/black-watercolor-background.svg);
     background-size: cover;  
     font-family: 'Archivo', sans-serif;
     color: var(--text-color);
