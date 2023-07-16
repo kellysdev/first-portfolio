@@ -15,9 +15,8 @@
 }
 
 body {
-    background-image: url(style.production.css);
     background-size: cover;  
-    background-color: var(--background-color);
+    background-color: #555355;
     font-family: 'Archivo', sans-serif;
     color: var(--text-color);
     font-size: 16px;
