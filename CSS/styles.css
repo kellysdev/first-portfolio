@@ -15,9 +15,9 @@
 }
 
 body {
-    background-image: url(./img/black-watercolor-background.svg);
-    background-size: cover;  
-    background-color: #555355;
+    background-image: url(./img/lines_background_cropped.svg);
+    background-size: cover;
+    background-attachment: fixed;
     font-family: 'Archivo', sans-serif;
     color: var(--text-color);
     font-size: 16px;
