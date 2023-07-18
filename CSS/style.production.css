@@ -23,7 +23,7 @@
 }
 
 body {
-    background-image: url(./img/lines_background_cropped.svg);
+    background-image: url(./img/ferns_background.png);
     background-size: cover;
     background-attachment: fixed;
     background-color: var(--background-color);
