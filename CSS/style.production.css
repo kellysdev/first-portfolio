@@ -12,7 +12,7 @@
   --text-color: #242424;
   --visited-link-color: #000;
   --grid-item-color: rgba(97, 117, 72, 0.1);
-  --text-background-color: #fffff9;
+  /* --text-background-color: #fffff9; */
 
   --header-font-weight: 700px;
 }
@@ -24,7 +24,7 @@
 
 body {
     background-image: url(../img/ferns_background.png);
-    background-size: cover;
+    background-size: cover;  
     background-attachment: fixed;
     font-family: 'Archivo', sans-serif;
     color: var(--text-color);
@@ -101,7 +101,7 @@ a {
   display: flex;
   width: 100%;
   padding: 20px;
-  background-color: var(--text-background-color);  
+  background-color: var(--background-color);  
   width: 75%;
   height: 200%;
   padding: 20px;
@@ -136,7 +136,7 @@ a {
 }
 
 .profile {
-  background-color: var(--text-background-color);  
+  background-color: var(--background-color);  
   width: 75%;
   height: 200%;
   padding: 20px 20px 60px 20px;
@@ -152,7 +152,7 @@ a {
 }
 
 .about {
-  background-color: var(--text-background-color);  
+  background-color: var(--background-color);  
   width: 75%;
   height: 200%;
   padding: 20px;
@@ -166,8 +166,8 @@ a {
             transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 
@@ -177,15 +177,15 @@ a {
             transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 
 .svg {
   width: 100px;
-  -webkit-animation: 2s spin infinite alternate linear;
-          animation: 2s spin infinite alternate linear;
+  -webkit-animation: 5s spin infinite normal linear;
+          animation: 5s spin infinite normal linear;
   margin: auto;
 }
 
@@ -198,7 +198,7 @@ a {
 }
 
 .work {
-  background-color: var(--text-background-color);  
+  background-color: var(--background-color);  
   width: 75%;
   height: 200%;
   padding: 20px;
@@ -248,7 +248,7 @@ a {
 
 .contact {
   text-align: center;
-  background-color: var(--text-background-color);  
+  background-color: var(--background-color);  
   width: 75%;
   height: 200%;
   padding: 20px;
@@ -266,7 +266,7 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  background-color: var(--text-background-color);  
+  background-color: var(--background-color);  
   width: 75%;
   height: 200%;
   padding: 20px;
