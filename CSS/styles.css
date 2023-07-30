@@ -1,3 +1,4 @@
+/* Variables */
 :root {
   --background-color: #F4F2EE;
   --primary-color: #617548;
@@ -10,6 +11,7 @@
   --header-font-weight: 700px;
 }
 
+/* Universal Styling */
 * {
     box-sizing: border-box;
 }
@@ -83,6 +85,7 @@ a {
     color:#2B2B2B
 }
 
+/* Page Header Styling */
 .page-header {
   display: flex;
   width: 100%;
@@ -117,6 +120,7 @@ a {
     text-decoration: none;
 }
 
+/* Home Page Content Styling */
 .profile {
   background-color: var(--text-background-color);  
   width: 75%;
@@ -133,6 +137,7 @@ a {
     border-radius: 50%;
 }
 
+/* About Page Content Styling */
 .about {
   background-color: var(--text-background-color);  
   width: 75%;
@@ -165,6 +170,7 @@ a {
   margin: auto;
 }
 
+/* Portfolio Page Content Styling */
 .work {
   background-color: var(--text-background-color);  
   width: 75%;
@@ -207,6 +213,7 @@ a {
   grid-column: 1/4;
 }
 
+/* Contact Page Content Styling */
 .contact {
   text-align: center;
   background-color: var(--text-background-color);  
@@ -217,6 +224,25 @@ a {
   border-radius: 10px;
 }
 
+label {
+  display: inline-block;
+  min-width: 150px;
+}
+
+input {
+  display: inline-block;
+}
+
+.input-wrapper {
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  font-size: x-small;
+}
+
+/* Page Footer Styling */
 .page-footer {
   clear: both;
   display: flex;
@@ -242,6 +268,7 @@ a {
   padding: 20px;
 }
 
+/* Media Queries */
 @media all and (max-width: 400px) {
   .profile__portrait {
     width: 175px;
