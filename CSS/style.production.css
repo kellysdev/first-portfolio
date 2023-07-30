@@ -5,6 +5,7 @@
 * Browsers: last 2 version
 */
 
+/* Variables */
 :root {
   --background-color: #F4F2EE;
   --primary-color: #617548;
@@ -17,6 +18,7 @@
   --header-font-weight: 700px;
 }
 
+/* Universal Styling */
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -95,6 +97,7 @@ a {
     color:#2B2B2B
 }
 
+/* Page Header Styling */
 .page-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -111,8 +114,8 @@ a {
 
 .page-header__item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 200px;
-          flex: 0 1 200px;
+      -ms-flex: 0 2 200px;
+          flex: 0 2 200px;
 }
 
 .page-header__item:last-child {
@@ -135,6 +138,7 @@ a {
     text-decoration: none;
 }
 
+/* Home Page Content Styling */
 .profile {
   background-color: var(--background-color);  
   width: 75%;
@@ -151,6 +155,7 @@ a {
     border-radius: 50%;
 }
 
+/* About Page Content Styling */
 .about {
   background-color: var(--background-color);  
   width: 75%;
@@ -189,6 +194,10 @@ a {
   margin: auto;
 }
 
+.about-text {
+  text-align: center;
+}
+
 .about-list {
   list-style-type: none;
 }
@@ -197,6 +206,7 @@ a {
   margin: auto;
 }
 
+/* Portfolio Page Content Styling */
 .work {
   background-color: var(--background-color);  
   width: 75%;
@@ -246,6 +256,7 @@ a {
   grid-column: 1/4;
 }
 
+/* Contact Page Content Styling */
 .contact {
   text-align: center;
   background-color: var(--background-color);  
@@ -256,6 +267,25 @@ a {
   border-radius: 10px;
 }
 
+label {
+  display: inline-block;
+  min-width: 150px;
+}
+
+input {
+  display: inline-block;
+}
+
+.input-wrapper {
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+  font-size: x-small;
+}
+
+/* Page Footer Styling */
 .page-footer {
   clear: both;
   display: -webkit-box;
@@ -294,6 +324,7 @@ a {
   padding: 20px;
 }
 
+/* Media Queries */
 @media all and (max-width: 400px) {
   .profile__portrait {
     width: 175px;

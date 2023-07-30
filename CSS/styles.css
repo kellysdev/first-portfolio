@@ -100,7 +100,7 @@ a {
 }
 
 .page-header__item {
-  flex: 0 1 200px;
+  flex: 0 2 200px;
 }
 
 .page-header__item:last-child {
@@ -161,6 +161,10 @@ a {
   width: 100px;
   animation: 5s spin infinite normal linear;
   margin: auto;
+}
+
+.about-text {
+  text-align: center;
 }
 
 .about-list {
