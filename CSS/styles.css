@@ -1,3 +1,4 @@
+/* Universal Styling */
 :root {
   --primary-color: #826f7C;
   --secondary-color: #F6E6BD;
@@ -78,6 +79,7 @@ a {
     color:#2B2B2B
 }
 
+/* Header Styling */
 .page-header {
   display: flex;
   width: 100%;
@@ -112,6 +114,7 @@ a {
     text-decoration: none;
 }
 
+/* Home Page Styling */
 .profile {
   background-color: var(--text-background-color);  
   width: 75%;
@@ -128,6 +131,7 @@ a {
     border-radius: 50%;
 }
 
+/* About Me Page Styling */
 .about {
   background-color: var(--text-background-color);  
   width: 75%;
@@ -161,6 +165,7 @@ a {
   margin: auto;
 }
 
+/* Portfolio Page Styling */
 .work {
   background-color: var(--text-background-color);  
   width: 75%;
@@ -203,6 +208,7 @@ a {
   grid-column: 1/4;
 }
 
+/* Contact Page Styling */
 .contact {
   text-align: center;
   background-color: var(--text-background-color);  
@@ -212,7 +218,7 @@ a {
   margin: auto auto;
   border-radius: 10px;
 }
-
+ /* Footer (and below) Styling */
 .page-footer {
   clear: both;
   display: flex;
@@ -240,6 +246,7 @@ a {
   padding: 20px;
 }
 
+/* Media Queries */
 @media all and (max-width: 400px) {
   .profile__portrait {
     width: 175px;
