@@ -1,51 +1,45 @@
 :root {
-  --background-color: #F4F2EE;
-  --primary-color: #617548;
-  --secondary-color: #C78548;
-  --text-color: #242424;
-  --visited-link-color: #000;
-  --grid-item-color: rgba(97, 117, 72, 0.1);
-  --text-background-color: #fffff9;
+  --primary-color: #826f7C;
+  --secondary-color: #F6E6BD;
+  --text-color: #FEFCF7;
+  --visited-link-color: rgba(246, 230, 189, 0.3);
+  --grid-item-color: rgba(246, 230, 189, 0.7);
+  --text-background-color: rgba(249, 243, 230, 0.2);
 
   --header-font-weight: 700px;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Exo', sans-serif;
 }
 
 body {
-    background-image: url(../img/ferns_background.png);
-    background-size: cover;  
-    background-color: var(--background-color);
-    font-family: 'Archivo', sans-serif;
-    color: var(--text-color);
-    font-size: 16px;
-    line-height: 1.0;
+  background-image: url(../img/background.svg);
+  background-size: cover;
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.0;
 }
 
 h1 {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 30px;
-    font-weight: var(--header-font-weight);
+  font-size: 30px;
+  font-weight: var(--header-font-weight);
 }
 
 h2 {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 24px;
-    font-weight: var(--header-font-weight);
+  font-size: 24px;
+  font-weight: var(--header-font-weight);
 }
 
 h3 {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 18px;
-    font-weight: var(--header-font-weight);
+  font-size: 18px;
+  font-weight: var(--header-font-weight);
 }
 
 a {
-    font-family: 'Archivo Narrow', sans-serif;
-    color: var(--primary-color);
-    font-weight: 550;
+    color: var(--secondary-color);
+    font-weight: 300;
   }
 
   a:visited {
@@ -141,6 +135,7 @@ a {
   padding: 20px;
   margin: auto auto;
   border-radius: 10px;
+  text-align: center;
 }
 
 @keyframes spin {
@@ -191,10 +186,10 @@ a {
 
 .grid__item {
   background-color: var(--grid-item-color);
+  color: #2B2B2B;
   width: auto;
   min-height: auto;
   padding: 10px;
-  border: none;
   border-radius: 10px;
   margin: 0;
 }
@@ -223,6 +218,7 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
+  color: var(--visited-link-color);
   background-color: var(--text-background-color);  
   width: 75%;
   height: 200%;
@@ -232,6 +228,7 @@ a {
 }
 
 .attribute {
+  color: var(--visited-link-color);
   font-size: x-small;
   display: flex;
   justify-content: center;
