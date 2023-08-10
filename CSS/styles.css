@@ -13,41 +13,36 @@
 
 /* Universal Styling */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Exo', sans-serif;
 }
 
 body {
-    background-image: url(../img/ferns_background.png);
-    background-size: cover;  
-    background-attachment: fixed;
-    font-family: 'Archivo', sans-serif;
-    color: var(--text-color);
-    font-size: 16px;
-    line-height: 1.0;
+  background-image: url(../img/background.svg);
+  background-size: cover;
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.0;
 }
 
 h1 {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 30px;
-    font-weight: var(--header-font-weight);
+  font-size: 30px;
+  font-weight: var(--header-font-weight);
 }
 
 h2 {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 24px;
-    font-weight: var(--header-font-weight);
+  font-size: 24px;
+  font-weight: var(--header-font-weight);
 }
 
 h3 {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 18px;
-    font-weight: var(--header-font-weight);
+  font-size: 18px;
+  font-weight: var(--header-font-weight);
 }
 
 a {
-    font-family: 'Archivo Narrow', sans-serif;
-    color: var(--primary-color);
-    font-weight: 550;
+    color: var(--secondary-color);
+    font-weight: 300;
   }
 
   a:visited {
@@ -86,7 +81,7 @@ a {
     color:#2B2B2B
 }
 
-/* Page Header Styling */
+/* Header Styling */
 .page-header {
   display: flex;
   width: 100%;
@@ -121,12 +116,12 @@ a {
     text-decoration: none;
 }
 
-/* Home Page Content Styling */
+/* Home Page Styling */
 .profile {
   background-color: var(--background-color);  
   width: 75%;
   height: 200%;
-  padding: 20px 20px 60px 20px;
+  padding: 20px 20px 80px 20px;
   margin: auto auto;
   border-radius: 10px;
 }
@@ -138,7 +133,7 @@ a {
     border-radius: 50%;
 }
 
-/* About Page Content Styling */
+/* About Me Page Styling */
 .about {
   background-color: var(--background-color);  
   width: 75%;
@@ -146,6 +141,7 @@ a {
   padding: 20px;
   margin: auto auto;
   border-radius: 10px;
+  text-align: center;
 }
 
 @keyframes spin {
@@ -175,7 +171,7 @@ a {
   margin: auto;
 }
 
-/* Portfolio Page Content Styling */
+/* Portfolio Page Styling */
 .work {
   background-color: var(--background-color);  
   width: 75%;
@@ -201,10 +197,10 @@ a {
 
 .grid__item {
   background-color: var(--grid-item-color);
+  color: #2B2B2B;
   width: auto;
   min-height: auto;
   padding: 10px;
-  border: none;
   border-radius: 10px;
   margin: 0;
 }
@@ -218,7 +214,7 @@ a {
   grid-column: 1/4;
 }
 
-/* Contact Page Content Styling */
+/* Contact Page Styling */
 .contact {
   text-align: center;
   background-color: var(--background-color);  
@@ -228,32 +224,14 @@ a {
   margin: auto auto;
   border-radius: 10px;
 }
-
-label {
-  display: inline-block;
-  min-width: 150px;
-}
-
-input {
-  display: inline-block;
-}
-
-.input-wrapper {
-  margin-bottom: 10px;
-}
-
-.error-message {
-  color: red;
-  font-size: x-small;
-}
-
-/* Page Footer Styling */
+ /* Footer (and below) Styling */
 .page-footer {
   clear: both;
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: var(--background-color);  
+  color: var(--visited-link-color);
+  background-color: var(--text-background-color);  
   width: 75%;
   height: 200%;
   padding: 20px;
@@ -262,6 +240,7 @@ input {
 }
 
 .attribute {
+  color: var(--visited-link-color);
   font-size: x-small;
   display: flex;
   justify-content: center;
