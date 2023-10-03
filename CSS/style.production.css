@@ -11,10 +11,7 @@
   --secondary-color: #FFF9D8;
   --text-color: rgb(254, 252, 247);
   --visited-link-color: #FFF6C7;
-  --grid-item-color: rgba(255, 255, 255, 0.4);
-  --text-background-color: rgba(255, 249, 216, 0.2);
-
-
+  --grid-item-color: rgba(255, 249, 199, 0.345);
   --header-font-weight: 700px;
 }
 
