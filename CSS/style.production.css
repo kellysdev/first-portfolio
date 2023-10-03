@@ -2,7 +2,7 @@
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
 * Autoprefixer: v10.4.7
-* Browsers: last 2 version
+* Browsers: last 4 version
 */
 
 /* Variables */
@@ -79,6 +79,7 @@ a {
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
     transition: opacity 0.2s;
 }
 
@@ -134,9 +135,8 @@ a {
 }
 
 /* Home Page Styling */
-.profile {
-  background-color: var(--text-background-color);  
-  width: 75%;
+.profile {  
+  width: 50%;
   height: 200%;
   padding: 20px 20px 80px 20px;
   margin: auto auto;
@@ -151,8 +151,7 @@ a {
 }
 
 /* About Me Page Styling */
-.about {
-  background-color: var(--text-background-color);  
+.about {  
   width: 75%;
   height: 200%;
   padding: 20px;
@@ -203,8 +202,7 @@ a {
 }
 
 /* Portfolio Page Styling */
-.work {
-  background-color: var(--text-background-color);  
+.work {  
   width: 75%;
   height: 200%;
   padding: 20px;
@@ -230,7 +228,6 @@ a {
 
 .grid__item {
   background-color: var(--grid-item-color);
-  color: #2B2B2B;
   width: auto;
   min-height: auto;
   padding: 10px;
@@ -254,8 +251,7 @@ a {
 
 /* Contact Page Styling */
 .contact {
-  text-align: center;
-  background-color: var(--text-background-color);  
+  text-align: center;  
   width: 75%;
   height: 200%;
   padding: 20px;
@@ -273,8 +269,7 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  color: var(#2B2B2B);
-  background-color: var(--text-background-color);  
+  color: var(#2B2B2B);  
   width: 75%;
   height: 200%;
   padding: 20px;

@@ -117,9 +117,8 @@ a {
 }
 
 /* Home Page Styling */
-.profile {
-  background-color: var(--text-background-color);  
-  width: 75%;
+.profile {  
+  width: 50%;
   height: 200%;
   padding: 20px 20px 80px 20px;
   margin: auto auto;
@@ -134,8 +133,7 @@ a {
 }
 
 /* About Me Page Styling */
-.about {
-  background-color: var(--text-background-color);  
+.about {  
   width: 75%;
   height: 200%;
   padding: 20px;
@@ -172,8 +170,7 @@ a {
 }
 
 /* Portfolio Page Styling */
-.work {
-  background-color: var(--text-background-color);  
+.work {  
   width: 75%;
   height: 200%;
   padding: 20px;
@@ -197,7 +194,6 @@ a {
 
 .grid__item {
   background-color: var(--grid-item-color);
-  color: #2B2B2B;
   width: auto;
   min-height: auto;
   padding: 10px;
@@ -216,8 +212,7 @@ a {
 
 /* Contact Page Styling */
 .contact {
-  text-align: center;
-  background-color: var(--text-background-color);  
+  text-align: center;  
   width: 75%;
   height: 200%;
   padding: 20px;
@@ -230,8 +225,7 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  color: var(#2B2B2B);
-  background-color: var(--text-background-color);  
+  color: var(#2B2B2B);  
   width: 75%;
   height: 200%;
   padding: 20px;
