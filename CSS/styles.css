@@ -150,6 +150,12 @@ a {
   border-radius: 10px;
 }
 
+.work__img {
+  height: 40%;
+  width: 100%;
+  padding: 10px;
+}
+
 .grid__item {
   display: inline-block;
   width: 33%;
