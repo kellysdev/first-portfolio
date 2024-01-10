@@ -156,39 +156,6 @@ a {
   text-align: center;
 }
 
-@-webkit-keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-.svg {
-  width: 100px;
-  -webkit-animation: 5s spin infinite normal linear;
-          animation: 5s spin infinite normal linear;
-  margin: auto;
-}
-
-.about-text {
-  text-align: center;
-}
-
 .about-list {
   list-style-type: none;
 }

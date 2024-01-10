@@ -138,25 +138,6 @@ a {
   text-align: center;
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.svg {
-  width: 100px;
-  animation: 5s spin infinite normal linear;
-  margin: auto;
-}
-
-.about-text {
-  text-align: center;
-}
-
 .about-list {
   list-style-type: none;
 }
