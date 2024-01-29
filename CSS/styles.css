@@ -6,7 +6,6 @@
   --visited-link-color: #7C8570;
   --active-link-color: #FFF9D8;
   --grid-item-color: rgb(255, 249, 199, 0.25);
-  --header-font-weight: 900px;
 }
 
 /* Universal Styling */
@@ -18,25 +17,14 @@
 body {
   /* background-image: url(../img/background.svg);
   background-size: auto auto; */
-  background-color: #e3e3dd;
+  background-color: #EDE9E6;
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.0;
 }
 
-h1 {
-  font-size: 30px;
-  font-weight: var(--header-font-weight);
-}
-
-h2 {
-  font-size: 24px;
-  font-weight: var(--header-font-weight);
-}
-
-h3 {
-  font-size: 18px;
-  font-weight: var(--header-font-weight);
+h1, h2, h3 {
+  font-family: 'Noto Serif Display', serif;
 }
 
 a {
@@ -91,6 +79,10 @@ a {
 
 .page-header__item {
   flex: 0 2 200px;
+}
+
+.page-header__item:first-child {
+  font-weight: 600;
 }
 
 .page-header__item:last-child {
