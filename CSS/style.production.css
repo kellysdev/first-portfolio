@@ -7,12 +7,12 @@
 
 /* Variables */
 :root {
-  --primary-color: rgb(159, 143, 177);
-  --secondary-color: #FFF9D8;
-  --text-color: rgb(254, 252, 247);
-  --visited-link-color: #FFF6C7;
-  --grid-item-color: rgba(255, 249, 199, 0.15);
-  --header-font-weight: 700px;
+  --button-color: rgba(58, 58, 57, 0.7);
+  --text-color: #1f1f1f;
+  --link-color: #212121;
+  --visited-link-color: #7C8570;
+  --active-link-color: #FFF9D8;
+  --grid-item-color: rgb(255, 249, 199, 0.25);
 }
 
 /* Universal Styling */
@@ -23,51 +23,43 @@
 }
 
 body {
-  background-image: url(../img/background.svg);
-  background-size: auto auto;
+  /* background-image: url(../img/background.svg);
+  background-size: auto auto; */
+  background-color: #EDE9E6;
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.0;
 }
 
-h1 {
-  font-size: 30px;
-  font-weight: var(--header-font-weight);
-}
-
-h2 {
-  font-size: 24px;
-  font-weight: var(--header-font-weight);
-}
-
-h3 {
-  font-size: 18px;
-  font-weight: var(--header-font-weight);
+h1, h2, h3 {
+  font-family: 'Noto Serif Display', serif;
 }
 
 a {
-    color: var(--secondary-color);
-    font-weight: 300;
+    color: var(--link-color);
+    font-weight: bolder;
+    text-decoration: none;
   }
 
   a:visited {
     color: var(--visited-link-color);
+    font-weight: normal;
   }
 
   a:active {
-    color: var(--secondary-color);
+    color: var(--active-link-color);
   }
 
   a:hover, a:focus {
-    text-decoration: none;
+    text-decoration: underline;
   }
 
   button, .button {
     border: none;
     display: inline-block;
     font-family: inherit;
-    background-color: var(--primary-color);
-    color: var(--background-color);
+    background-color: var(--button-color);
+    color: white;
     text-decoration: none;
     padding: 5px;
     border-radius: 3px;
@@ -84,11 +76,6 @@ a {
     cursor: pointer;
     opacity: 0.8;
   }
-
-.button_secondary {
-    background-color: var(--secondary-color);
-    color:#2B2B2B
-}
 
 /* Header Styling */
 .page-header {
@@ -108,6 +95,10 @@ a {
   -webkit-box-flex: 0;
       -ms-flex: 0 2 200px;
           flex: 0 2 200px;
+}
+
+.page-header__item:first-child {
+  font-weight: 600;
 }
 
 .page-header__item:last-child {
@@ -142,7 +133,7 @@ a {
 .profile__portrait {
     float: left;
     width: 200px;
-    margin-right: 40px;
+    margin-right: 50px;
     border-radius: 50%;
 }
 
@@ -156,12 +147,8 @@ a {
   text-align: center;
 }
 
-.about-list {
-  list-style-type: none;
-}
-
-.about__table {
-  margin: auto;
+.about-text {
+  text-align: left;
 }
 
 /* Portfolio Page Styling */
@@ -176,7 +163,7 @@ a {
 .work__img {
   height: 40%;
   width: 100%;
-  margin: 10px;
+  padding: 10px;
 }
 
 .grid__item {
