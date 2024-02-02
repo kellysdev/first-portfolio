@@ -3,9 +3,9 @@
   --button-color: rgba(58, 58, 57, 0.7);
   --text-color: #1f1f1f;
   --link-color: #212121;
-  --visited-link-color: #7C8570;
+  --visited-link-color: oldlace;
   --active-link-color: #FFF9D8;
-  --grid-item-color: rgb(255, 249, 199, 0.25);
+  --grid-item-color: rgb(255, 249, 199, 0.5);
 }
 
 /* Universal Styling */
@@ -15,8 +15,9 @@
 }
 
 body {
-  /* background-image: url(../img/background.svg);
-  background-size: auto auto; */
+  /* background-image: url(../img/background.svg); */
+  background-image: url("https://images.unsplash.com/photo-1516009674556-7eafcc30b75b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: auto auto;
   background-color: #EDE9E6;
   color: var(--text-color);
   font-size: 16px;
@@ -169,15 +170,6 @@ a {
   padding: 10px;
   border-radius: 10px;
   margin: 0;
-}
-
-.grid__item:last-child {
-  grid-column: 3/3;
-  grid-row: 1/3;
-}
-
-.grid__item:nth-child(5){
-  grid-column: 1/4;
 }
 
 /* Contact Page Styling */
