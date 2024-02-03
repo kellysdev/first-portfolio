@@ -3,7 +3,7 @@
   --button-color: rgba(58, 58, 57, 0.7);
   --text-color: #1f1f1f;
   --link-color: #212121;
-  --visited-link-color: oldlace;
+  --visited-link-color: rgb(171, 169, 137);
   --active-link-color: #FFF9D8;
   --grid-item-color: rgb(255, 249, 199, 0.5);
 }
@@ -15,7 +15,6 @@
 }
 
 body {
-  /* background-image: url(../img/background.svg); */
   background-image: url("https://images.unsplash.com/photo-1516009674556-7eafcc30b75b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: auto auto;
   background-color: #EDE9E6;
@@ -101,14 +100,14 @@ a {
 }
 
 .navigation-list__item--active {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* Home Page Styling */
 .home {  
   width: 75%;
   height: 200%;
-  padding: 20px 20px 80px 20px;
+  padding: 0px 20px 80px 20px;
   margin: auto auto;
   border-radius: 10px;
 }
@@ -221,7 +220,7 @@ a {
   color: #000;
 }
 
-.attribute {
+.image-attribute {
   color: var(--visited-link-color);
   font-size: x-small;
   display: flex;
