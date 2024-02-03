@@ -131,21 +131,34 @@ a {
   border-radius: 10px;
 }
 
-.profile__portrait {
-    float: left;
-    width: 200px;
-    margin-right: 50px;
-    border-radius: 50%;
-}
-
 /* About Me Page Styling */
-.about {  
+.about-container {  
   width: 75%;
   height: 200%;
   padding: 20px;
   margin: auto auto;
   border-radius: 10px;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.about {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.profile__portrait {
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+  border-radius: 5px;
 }
 
 .about-text {
