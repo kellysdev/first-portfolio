@@ -24,13 +24,13 @@
             <nav class="page-header__item">
                 <ul role="menubar" class="navigation-list">
                     <li role="presentation">
-                        <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+                        <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="resume.html" role="menuitem" class="navigation-list__item">Resume</a>
                     </li>
                     <li role="presentation">
                         <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html" role="menuitem" class="navigation-list__item">Portfolio</a>
                     </li>
                     <li role="presentation">
                         <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
@@ -39,14 +39,62 @@
             </nav>
         </header>
 
-        <main class="profile">
-            <img src="img/profile.jpg" alt="Kelly Scott portrait" class="profile__portrait">
+        <main class="home">
             <div class="profile__text">
                 <h1>Full-Stack Web Developer</h1>
                 <p>
-                    Hi, I'm Kelly.  I‘m a full-stack web development student with a background in research, teaching, and production brewing.  I am a problem solver who is big on taking the initiative and project management.<br>
-                    I have built a handful of projects that focus on application architecture, responsiveness, and design.  I am excited to pursue a career in which I can expand my web development skills while creating meaningful user experiences.
+                    Hi, I'm Kelly.  I‘m a full-stack web development student with a background in research, teaching, and production brewing.  I am a problem solver who is big on taking the initiative and project management.<br><br>
+                    I build projects that focus on application architecture, responsiveness, and design.  I am excited to pursue a career in which I can expand my web development skills while creating meaningful user experiences.
+                    <br><br>
+                    Scroll down to check out some of my recent work.
                 </p>
+            </div>
+
+            <h1>My Recent Projects</h1>
+            <div class="grid">
+                <div class="grid__item">
+                    <h2>Movie React App</h2>
+                    <img src="./img/portfolio/popopolis.png" alt="Movie app screenshot" class="work__img">
+                    <p>A CRUD single-page movie application built with MERN, a REST API, Bootstrap, and hosted on Netlify.</p>
+
+                    <span><img src="img/github_icon.svg" alt="GitHub icon" style="width:20px;height:20px;"></span>
+                    <a href="https://github.com/lladysmall/movie-client">See this project on GitHub</a><br><br>
+
+                    <span><img src="https://cdn1.iconfinder.com/data/icons/lightly-selected/30/briefcase-480.png" alt="briefcase icon" style="width:20px;height:20px;"></span>
+                    <a href="moviecasestudy.html">See the case study for this project</a><br><br>
+
+                    <span><img src="https://cdn3.iconfinder.com/data/icons/material-line-thin/1024/globe-512.png" alt="website icon" style="width:20px;height:20px;"></span>
+                    <a href="https://popopolis.netlify.app/">Explore the app here!</a>
+                </div>
+
+                <div class="grid__item">
+                    <h2>Meet PWA App</h2>
+                    <img src="./img/portfolio/meet.png" alt="Meet app screenshot" class="work__img">
+                    <p>
+                        A serverless, progressive web application built with React using a test-driven development technique. 
+                        Fetches upcoming events from the Google Calendar API and utilizes OAuth2 authentication.
+                    </p>
+
+                    <span><img src="img/github_icon.svg" alt="GitHub icon" style="width:20px;height:20px;"></span>
+                    <a href="https://github.com/lladysmall/meet">See this project on GitHub</a><br><br>
+
+                    <span><img src="https://cdn3.iconfinder.com/data/icons/material-line-thin/1024/globe-512.png" alt="website icon" style="width:20px;height:20px;"></span>
+                    <a href="https://lladysmall.github.io/meet/">Explore the live app here!</a>
+                </div>
+
+                <div class="grid__item">
+                    <h2>Pokedex</h2>
+                    <img src="./img/portfolio/pokedex.png" alt="Pokedex screenshot"class="work__img">
+                    <p>Built with HTML, CSS, JavaScript, some JQuery, and Bootstrap. The app loads data from an external API, the PokeAPI, and enables the viewing of data points in detail.</p>
+                    
+                    <span><img src="img/github_icon.svg" alt="GitHub icon" style="width:20px;height:20px;"></span>
+                    <a href="https://lladysmall.github.io/Pokedex/">See this project on GitHub</a>
+                </div>
+                <!-- <div class="grid__item">
+                    <h2>Project 4</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet ipsum eu lacus semper imperdiet at eu ante. Vestibulum sit amet enim semper, sollicitudin felis vitae, fermentum ipsum. Quisque pretium, velit eu finibus iaculis, risus justo porta nunc, mattis tempus orci risus ornare purus.</p>
+                    <a href="#">See project on GitHub</a>
+                </div> -->
             </div>
         </main>
 
@@ -60,14 +108,15 @@
                 <a href="https://www.linkedin.com/in/kellyascott/" target="_blank">
                     <img src="img/linkedin_icon.svg" alt="LinkedIn" style="width:30px;height:30px;">
                 </a>
-                <a href="https://twitter.com/home?lang=en" target="_blank">
-                    <img src="img/twitter_icon.svg" alt="twitter" style="width:30px;height:30px;">
+                <a href="https://www.instagram.com/kellysdev/" target="_blank">
+                    <img src="img/instagram_icon.svg" alt="Instagram" style="width:30px;height:30px;">
                 </a>
             </div>
         </footer>
         
         <div>
             <a href="#" class="backtotopp">Back to Top</a>
+            <a href="https://unsplash.com/@ro_ka" class="image-attribute">Background image by Robert Katzki</a>
         </div>
 
         <script src="js/tota11y.min.js"></script>
