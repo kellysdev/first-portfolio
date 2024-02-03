@@ -135,6 +135,19 @@ a {
   margin-bottom: 50px;
 }
 
+/* Resume Page Styling */
+.resume-container {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-button {
+  margin-bottom: 20px;
+
+}
+
 /* About Me Page Styling */
 .about-container {  
   width: 75%;
