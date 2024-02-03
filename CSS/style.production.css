@@ -123,12 +123,16 @@ a {
 }
 
 /* Home Page Styling */
-.profile {  
+.home {  
   width: 50%;
   height: 200%;
   padding: 20px 20px 80px 20px;
   margin: auto auto;
   border-radius: 10px;
+}
+
+.profile__text {
+  margin-bottom: 50px;
 }
 
 /* About Me Page Styling */
