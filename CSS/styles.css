@@ -193,6 +193,12 @@ a {
   margin: 0;
 }
 
+.casestudy {
+  width: 75%;
+  margin: auto;
+  display: flex;
+}
+
 /* Contact Page Styling */
 .contact {
   text-align: center;  
