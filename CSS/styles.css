@@ -193,6 +193,18 @@ a {
   margin: 0;
 }
 
+.moviecasestudy-container {
+  margin: auto;
+  width: 75%;
+  height: 900px;
+  overflow: scroll;
+}
+
+.casestudy-slide {
+  width: 100%;
+  margin-inline: auto;
+}
+
 /* Contact Page Styling */
 .contact {
   text-align: center;  
